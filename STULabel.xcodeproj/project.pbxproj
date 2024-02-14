@@ -52,8 +52,8 @@
 		D41C92AE2083CBC3002AFFF3 /* STUImageUtils.overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483EE4A202D007C005917F9 /* STUImageUtils.overlay.swift */; };
 		D41C92AF2083CBC3002AFFF3 /* STUTextFrame.overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42382A11F926F96000B8A63 /* STUTextFrame.overlay.swift */; };
 		D41C92B02083CBC3002AFFF3 /* STUTextRectArray.overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4981F021FBE33F1007E88C2 /* STUTextRectArray.overlay.swift */; };
-		D41C92C22083CEE0002AFFF3 /* STULabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42384761F92AC81000B8A63 /* STULabel.framework */; };
-		D41C92C32083CEE0002AFFF3 /* STULabelSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41C92B82083CBC3002AFFF3 /* STULabelSwift.framework */; };
+		D41C92C22083CEE0002AFFF3 /* STULabelStatic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42384761F92AC81000B8A63 /* STULabelStatic.framework */; };
+		D41C92C32083CEE0002AFFF3 /* STULabelStaticSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41C92B82083CBC3002AFFF3 /* STULabelStaticSwift.framework */; };
 		D41C92C52083D1C7002AFFF3 /* DynamicTypeFontScalingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450392E202E4E6300987C41 /* DynamicTypeFontScalingTests.swift */; };
 		D41C92C62083D276002AFFF3 /* MainScreenPropertiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464B2D92039D2730027FEE4 /* MainScreenPropertiesTests.swift */; };
 		D41C92C72083D2A6002AFFF3 /* MutexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4731079202E3624000CBFF1 /* MutexTests.m */; };
@@ -721,7 +721,7 @@
 		D41C6D20211354EF00ACF170 /* GlyphBoundsCacheTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GlyphBoundsCacheTests.mm; sourceTree = "<group>"; };
 		D41C92A42083CAF7002AFFF3 /* Static.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Static.xcconfig; sourceTree = "<group>"; };
 		D41C92A52083CB56002AFFF3 /* STULabelSwift static.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "STULabelSwift static.xcconfig"; sourceTree = "<group>"; };
-		D41C92B82083CBC3002AFFF3 /* STULabelSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STULabelSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41C92B82083CBC3002AFFF3 /* STULabelStaticSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STULabelStaticSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41C930320854D15002AFFF3 /* NSFoundationSupportTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NSFoundationSupportTests.mm; sourceTree = "<group>"; };
 		D41C930520854E05002AFFF3 /* NSFoundationSupportTests-no-ARC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSFoundationSupportTests-no-ARC.mm"; sourceTree = "<group>"; };
 		D41C948420874DEC002AFFF3 /* FunctionRefTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = FunctionRefTests.cpp; sourceTree = "<group>"; };
@@ -733,7 +733,7 @@
 		D42382A01F926F96000B8A63 /* STUStartEndRange.overlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STUStartEndRange.overlay.swift; sourceTree = "<group>"; };
 		D42382A11F926F96000B8A63 /* STUTextFrame.overlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STUTextFrame.overlay.swift; sourceTree = "<group>"; };
 		D42383C01F92A90D000B8A63 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
-		D42384761F92AC81000B8A63 /* STULabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STULabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42384761F92AC81000B8A63 /* STULabelStatic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STULabelStatic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D423847F1F92AE37000B8A63 /* DynamicFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42384991F9379B6000B8A63 /* Assert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assert.m; sourceTree = "<group>"; };
 		D423849A1F9379B7000B8A63 /* Dollar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dollar.hpp; sourceTree = "<group>"; };
@@ -1110,8 +1110,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C8FC1E20D005A100CDA4EB /* libicucore.tbd in Frameworks */,
-				D41C92C22083CEE0002AFFF3 /* STULabel.framework in Frameworks */,
-				D41C92C32083CEE0002AFFF3 /* STULabelSwift.framework in Frameworks */,
+				D41C92C22083CEE0002AFFF3 /* STULabelStatic.framework in Frameworks */,
+				D41C92C32083CEE0002AFFF3 /* STULabelStaticSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1435,10 +1435,10 @@
 				D4B0AEBC1F9259E600B5B2B9 /* STULabel.framework */,
 				D467A0771F9261E70043C7F0 /* Demo.app */,
 				D42382981F926F2C000B8A63 /* STULabelSwift.framework */,
-				D42384761F92AC81000B8A63 /* STULabel.framework */,
+				D42384761F92AC81000B8A63 /* STULabelStatic.framework */,
 				D423847F1F92AE37000B8A63 /* DynamicFrameworkTests.xctest */,
 				D43E66BD1FD45DB300BABD1C /* AllTests.xctest */,
-				D41C92B82083CBC3002AFFF3 /* STULabelSwift.framework */,
+				D41C92B82083CBC3002AFFF3 /* STULabelStaticSwift.framework */,
 				D4E8DBE220DA6F29009F4735 /* STULabelResources.bundle */,
 			);
 			name = Products;
@@ -2002,7 +2002,7 @@
 			);
 			name = "STULabelSwift static";
 			productName = STULabelSwift2;
-			productReference = D41C92B82083CBC3002AFFF3 /* STULabelSwift.framework */;
+			productReference = D41C92B82083CBC3002AFFF3 /* STULabelStaticSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D42382971F926F2C000B8A63 /* STULabelSwift */ = {
@@ -2040,7 +2040,7 @@
 			);
 			name = "STULabel static";
 			productName = STULabel;
-			productReference = D42384761F92AC81000B8A63 /* STULabel.framework */;
+			productReference = D42384761F92AC81000B8A63 /* STULabelStatic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D423847E1F92AE37000B8A63 /* DynamicFrameworkTests */ = {
