@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D41C92A62083CBC3002AFFF3"
-               BuildableName = "STULabelSwift.framework"
+               BuildableName = "STULabelStaticSwift.framework"
                BlueprintName = "STULabelSwift static"
                ReferencedContainer = "container:STULabel.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D41C92A62083CBC3002AFFF3"
-            BuildableName = "STULabelSwift.framework"
+            BuildableName = "STULabelStaticSwift.framework"
             BlueprintName = "STULabelSwift static"
             ReferencedContainer = "container:STULabel.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D41C92A62083CBC3002AFFF3"
-            BuildableName = "STULabelSwift.framework"
+            BuildableName = "STULabelStaticSwift.framework"
             BlueprintName = "STULabelSwift static"
             ReferencedContainer = "container:STULabel.xcodeproj">
          </BuildableReference>
