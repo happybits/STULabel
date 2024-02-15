@@ -7,7 +7,9 @@
 #import "Font.hpp"
 #import "HashTable.hpp"
 
+#if STU_DEBUG
 #include <exception>
+#endif
 
 namespace stu_label {
 
@@ -37,7 +39,7 @@ public:
 
 #if STU_DEBUG
   ~TextStyleBuffer() {
-    if (!std::uncaught_exception()) {
+    if (std::uncaught_exceptions() == 0) {
       STU_DEBUG_ASSERT(!needToFixAttachmentAttributes_);
     }
   }
