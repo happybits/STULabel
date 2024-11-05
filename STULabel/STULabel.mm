@@ -1227,23 +1227,15 @@ static void clearCurrentLabelTouch(STULabel* self) {
 // MARK: - Default link action sheet
 
 static void openURL(NSURL* url) {
-#if !TARGET_OS_MACCATALYST
-  if (@available(iOS 10, *)) {
-#endif
-    [UIApplication.sharedApplication openURL:url options:@{} completionHandler:^(BOOL success) {
-       if (!success) {
-       #if STU_DEBUG
-         NSLog(@"Failed to open URL %@", url);
-       #else
-         NSLog(@"Failed to open URL");
-       #endif
-       }
-     }];
-#if !TARGET_OS_MACCATALYST
-  } else {
-    [UIApplication.sharedApplication openURL:url];
-  }
-#endif
+  [UIApplication.sharedApplication openURL:url options:@{} completionHandler:^(BOOL success) {
+     if (!success) {
+     #if STU_DEBUG
+       NSLog(@"Failed to open URL %@", url);
+     #else
+       NSLog(@"Failed to open URL");
+     #endif
+     }
+   }];
 }
 
 static UIAlertAction* openURLAction(NSString* title, NSURL* url) {
