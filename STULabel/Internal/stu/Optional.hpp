@@ -6,6 +6,7 @@
 #include "stu/InOut.hpp"
 #include "stu/Utility.hpp"
 #include "stu/Ref.hpp"
+#include <exception>
 
 namespace stu {
 

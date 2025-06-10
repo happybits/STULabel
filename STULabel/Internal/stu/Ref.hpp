@@ -3,6 +3,7 @@
 #pragma once
 
 #include "stu/TypeTraits.hpp"
+#include <functional>
 
 namespace stu {
 
