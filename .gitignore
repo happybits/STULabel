@@ -4,4 +4,6 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 .idea
+Frameworks/
+.build/
 
